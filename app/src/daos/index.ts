@@ -10,13 +10,15 @@ let productsDao:ProductsDao_M | ProductsDao_F;
 switch (process.env.DB) {
     case 'mongodb':
         cartsDao = new CartsDao_M
-        productsDao = new ProductsDao_M        
+        productsDao = new ProductsDao_M
         break;
     case 'firebase':
         cartsDao = new CartsDao_F
         productsDao = new ProductsDao_F
         break
     default:
+        cartsDao = new CartsDao_M
+        productsDao = new ProductsDao_M
         break;
 }
 
