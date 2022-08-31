@@ -12,10 +12,7 @@ class ContainerMonogoDb {
     }
 
     async getAll() {
-        try {
-            if(!this.collection) return
-            console.log(this.collection);
-            
+        try {            
             return await this.collection.find();
         } catch (err) {
             console.log(err);   

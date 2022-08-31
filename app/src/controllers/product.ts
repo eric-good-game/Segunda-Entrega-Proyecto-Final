@@ -11,7 +11,7 @@ class ProductController {
         }
     }
     static async getOne (req:Request,res:Response){
-        try {            
+        try {
             const product = await productsDao.getById(req.params.id);
             if(!product){
                 res.status(404).send('Product not found');

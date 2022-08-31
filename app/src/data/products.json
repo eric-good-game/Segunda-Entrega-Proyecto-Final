@@ -1,0 +1,26 @@
+{
+  "next_id": "5",
+  "items": [
+    {
+      "id": "2",
+      "price": 300,
+      "stock": 20,
+      "name": "Libreta 2",
+      "image": "image"
+    },
+    {
+      "id": "3",
+      "price": 300,
+      "stock": 20,
+      "name": "Libreta 3",
+      "image": "image"
+    },
+    {
+      "id": "4",
+      "name": "Libreta 4",
+      "price": 200,
+      "image": "libreta.png",
+      "stock": 20
+    }
+  ]
+}

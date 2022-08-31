@@ -1,0 +1,32 @@
+{
+  "next_id": "5",
+  "items": [
+    {
+      "id": "1",
+      "total": 0,
+      "quantity": 0,
+      "products": [],
+      "user_id": "001",
+      "createdAt": "2022-08-31T05:48:21.408Z",
+      "updatedAt": "2022-08-31T05:48:21.408Z"
+    },
+    {
+      "id": "2",
+      "total": 0,
+      "quantity": 0,
+      "products": [],
+      "user_id": "001",
+      "createdAt": "2022-08-31T05:48:39.617Z",
+      "updatedAt": "2022-08-31T05:48:39.617Z"
+    },
+    {
+      "id": "4",
+      "total": 0,
+      "quantity": 0,
+      "products": [],
+      "user_id": "001",
+      "createdAt": "2022-08-31T05:48:48.376Z",
+      "updatedAt": "2022-08-31T05:48:48.376Z"
+    }
+  ]
+}
